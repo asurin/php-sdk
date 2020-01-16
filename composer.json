@@ -1,0 +1,17 @@
+{
+  "name": "asurin/php-sdk",
+  "description": "PHP SDK for Lemon Way API.  Name root renamed to ensure this customized for is picked up by composer rather than the original lemonway/php-sdk :(",
+  "type": "library",
+  "keywords": ["Lemon Way","LemonWay","wallet","payment","marketplace"],
+  "homepage": "https://github.com/lemonwaysas/php-client-directkit-xml",
+  "minimum-stability": "stable",
+  "license": "MIT",
+  "require": {
+    "php": ">=5.4.0",
+    "ext-curl": "*",
+    "ext-openssl": "*"
+  },
+  "autoload": {
+    "psr-4": { "LemonWay\\": "LemonWay/" }
+  }
+}
